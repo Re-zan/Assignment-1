@@ -168,29 +168,37 @@ nav ul li a .btn-primary:hover{
  }
  .my-plans{
     display: flex;
-    gap: 86px;
+    gap: 66px;
     justify-content: space-around;
     text-align: center;
+   
  }
 
- .my-plans img{
+ .my-plan-contents{
+   padding: 15px 0;
+ }
+
+ .my-plan-contents img{
     width: 92.96px;
 height: 92.96px;
 margin-bottom: 24.4px;
  }
- .my-plans h4{
+ .my-plan-contents h4{
 font-weight: 700;
 font-size: 30px;
 line-height: 35px;
 color: #151414;
 margin-bottom: 16px;
  }
- .my-plans p{
+ .my-plan-contents p{
     font-weight: 500;
 font-size: 25px;
 line-height: 29px;
 text-align: center;
 color: #737272;
+ }
+ .my-plan-contents:hover{
+   box-shadow: 10px 5px 5px rgb(228, 225, 225);
  }
 
  /* mindest part */
@@ -276,11 +284,12 @@ color: #FFFFFF;
     background-color: #151414;
     border: 1px solid #ffff;
     border-radius: 8px;
-    font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-color: #F3F3F3;
+ }
+ .subs_from{
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #F3F3F3;
     padding: 21px 158px 22px 21px;
  }
 
